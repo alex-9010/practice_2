@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueBlackCondensed.woff2") format("woff2"), url("../fonts/HelveticaNeueBlackCondensed.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueBoldCondensed.woff2") format("woff2"), url("../fonts/HelveticaNeueBoldCondensed.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 
 *,
 *::before,
@@ -38,13 +62,200 @@ html {
 }
 body {
 	line-height: 1;
-	font-family: 'Roboto', sans-serif;
 }
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
-	max-width: 890px;
+	max-width: 1000px;
 	padding:0 20px;
 	margin: 0 auto;
 }
 /* ------------------------------ */
+
+
+
+.cutspace{
+	font-family: Poppins;
+	color: #323232;
+}
+.cutspace > *{
+	margin-bottom: 200px;
+}
+.cutspace__one {
+	max-width: 375px;
+}
+.one__title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 62px;
+	letter-spacing: 0.8px;
+	margin-bottom: 20px;
+}
+.one__text {
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	margin-bottom: 58px;
+}
+.one__text p{
+	margin-bottom: 20px;
+}
+.one__button {
+	background: #F78434;
+	border-radius: 29px;
+	padding: 18px 39px 16px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+
+.cutspace__two {
+	max-width: 364px;
+	text-align: center;
+}
+.two__icon {
+	margin-bottom: 14px;
+}
+.two__title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 63px;
+	letter-spacing: 0.8px;
+	margin-bottom: 14px;
+}
+.two__text {
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	margin-bottom: 32px;
+}
+.two__link {
+	font-weight: 700;
+	line-height: 24px;
+	color: #F78434;
+}
+
+
+.cutspace__three {
+	max-width: 350px;
+}
+.three__img {
+}
+.three__content {
+	padding: 30px ;
+}
+.three__content-text {
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	padding-bottom: 20px;
+}
+.three__content-name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.6px;
+}
+.three__content-city {
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #58BEBF;
+}
+
+
+
+
+
+.healthy{
+	background-color: #1A1A1A;
+	padding: 50px;
+	font-family: 'Helvetica Neue';
+}
+
+
+.healthy__four {
+	background-color: #252525;
+	max-width: 255px;
+	padding: 24px;
+	min-height: 206px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	margin-bottom: 100px;
+}
+.four__title {
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.275px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.four__line {
+	margin-bottom: 24px;
+}
+.four__text {
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1625px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.healthy__container {
+	padding: 30px 24px 24px 30px;
+}
+.healthy__five {
+	max-width: 350px;
+	background: #252525;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	font-family: 'Helvetica Neue';
+}
+.five__top {
+
+}
+.five__top-bg {
+	height: 260px;
+	background: url('../img/placeholder.png');
+	padding: 24px 0 0 0;
+}
+.five__top-link img {
+	margin: 0px 24px 0 auto;
+	display: block;
+}
+
+.five__middle-title {
+	font-size: 32px;
+	line-height: 30px;
+	color: #D9D9D9;
+	margin-bottom: 5px;
+}
+.five__middle-text1 {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: -0.15px;
+	color: #A4A8B2;
+	margin-bottom: 20px;
+}
+.five__middle-text2 {
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1625px;
+	color: #85878C;
+	margin-bottom: 20px;
+}
+.five__bottom {
+	background: url('../img/stars.png') 0 center no-repeat;
+}
+.five__bottom-box{
+	display: inline-block
+}
+.five__bottom-stars {
+	padding: 0px 0px 0px 130px;
+	font-weight: 900;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	color: #B3B3B3;
+	margin: 0 40px 0 0;
+}
+
+.five__bottom-order{
+	vertical-align: middle;
+}
